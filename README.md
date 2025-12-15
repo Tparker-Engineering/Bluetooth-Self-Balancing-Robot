@@ -21,12 +21,12 @@ This project runs a fast balance loop (timer interrupt) and combines:
 
 ---
 
-## Hardware assumptions (at a high level)
+## Hardware 
 
-- **MCU:** ATmega328p-class board (ex: Arduino Nano)
+- **MCU:** ATmega328p-class board (Arduino Nano)
 - **IMU:** MPU-6050 over I²C/TWI  
 - **Motor driver:** dual H-bridge style interface (DIR + PWM + STBY)
-- **Encoders:** at least one channel per wheel (counted via interrupts)
+- **Encoders:** one channel per wheel (counted with interrupts)
 
 ---
 
